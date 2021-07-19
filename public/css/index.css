@@ -1,0 +1,46 @@
+.btn {
+  width: 100px;
+  height: 100px;
+}
+
+.flexcontainer {
+  margin-top: 5px;
+}
+
+.container {
+  border: 1px solid rgba(0, 0, 0, 0.514);
+  width: 308px;
+  height: fit-content;
+  padding: 10px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+#intro {
+  width: 380px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+#createRoom {
+  display: block;
+  margin: 30px;
+  width: 310px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+#joinRoomContainer input {
+  display: inline-block;
+  margin: 30px 0 30px 30px;
+  width: 200px;
+  height: 30px;
+}
+
+#joinRoomContainer button {
+  display: inline-block;
+  margin: 30px 30px 30px 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}

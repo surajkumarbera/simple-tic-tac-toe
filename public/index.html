@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>tic-tac-toe</title>
+  </head>
+  <body>
+    <div id="intro">
+      <button id="createRoom">Invite Friend</button>
+      <div id="joinRoomContainer">
+        <input type="text" placeholder="Room ID" id="roomId">
+        <button id="joinRoom">Join Friend</button>
+      </div>
+    </div>
+
+    <div id="playGround" class="container">
+      <div style="margin: auto; text-align: center; padding: 5px;">
+        <p style="margin: 0; text-decoration: underline;">Room ID</p>
+        <span id="roomIdSpan" style="background-color: rgba(128, 128, 128,
+          0.13); padding: 3px;"></span>
+      </div>
+      <div style="display: flex; justify-content: space-around; border: 1px
+        solid rgba(0, 0, 0, 0.541);">
+        <p id="youWin">You: 0</p>
+        <p id="frndWin">Friend: 0</p>
+      </div>
+      <div class="flexcontainer">
+        <button id="btn1" class="btn"></button>
+        <button id="btn2" class="btn"></button>
+        <button id="btn3" class="btn"></button>
+      </div>
+      <div class="flexcontainer">
+        <button id="btn4" class="btn"></button>
+        <button id="btn5" class="btn"></button>
+        <button id="btn6" class="btn"></button>
+      </div>
+      <div class="flexcontainer">
+        <button id="btn7" class="btn"></button>
+        <button id="btn8" class="btn"></button>
+        <button id="btn9" class="btn"></button>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
